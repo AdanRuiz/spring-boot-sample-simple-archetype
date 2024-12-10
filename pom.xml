@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.github.adanruiz</groupId>
+  <artifactId>spring-boot-sample-simple-archetype</artifactId>
+  <version>1.1.1.RELEASE</version>
+  <packaging>maven-archetype</packaging>
+
+  <name>spring-boot-sample-simple-archetype</name>
+
+  <properties>
+    <start-class>${project.groupId}.${project.artifactId}.SampleSimpleApplication</start-class>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <java.version>17</java.version>
+    <encoding>UTF-8</encoding>
+    <skipTests>true</skipTests>
+  </properties>
+
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.archetype</groupId>
+        <artifactId>archetype-packaging</artifactId>
+        <version>2.2</version>
+      </extension>
+    </extensions>
+
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-archetype-plugin</artifactId>
+          <version>2.2</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <description>Spring Boot Simple Sample</description>
+
+  <url>http://projects.spring.io/spring-boot/</url>
+
+  <developers>
+    <developer>
+      <id>aoruiz</id>
+      <name>Adan Ruiz</name>
+      <email>adan.ruiz@tec.mx</email>
+      <organization>ITESM</organization>
+      <organizationUrl>http://www.tec.mx</organizationUrl>
+      <roles>
+        <role>Computer Science Professor</role>
+      </roles>
+    </developer>
+  </developers>
+
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+
+  <scm>
+    <url>https://github.com/spring-projects/spring-boot/spring-boot-starter-parent/spring-boot-sample-simple</url>
+  </scm>
+</project>
