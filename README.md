@@ -11,7 +11,7 @@ $ mvn clean install
 ```
 
 ## Usage
-
+(In your new project folder)
 ```
 mvn archetype:generate  -DarchetypeGroupId=com.github.adanruiz -DarchetypeArtifactId=spring-boot-sample-simple-archetype -DarchetypeVersion=1.1.1.RELEASE -DgroupId=com.tlg     -DartifactId=person -Dversion=1.0.0-SNAPSHOT -DinteractiveMode=false
 ```
